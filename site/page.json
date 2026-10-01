@@ -1,0 +1,405 @@
+{
+  "repo": "teddashh/zhan-dou-tuo-luo",
+  "slug": "zhan-dou-tuo-luo",
+  "name": "zhan-dou-tuo-luo",
+  "mark": "BX",
+  "palette": "blue",
+  "default_branch": "main",
+  "verified": "2026-09-30",
+  "title": {
+    "en": "Beyblade X strategy notes from AI Sister discussions",
+    "zh": "AI 教你打陀螺：Beyblade X 戰術筆記"
+  },
+  "description": {
+    "en": "Notes in Traditional Chinese on Beyblade X strategy, compiled from four AI Sister discussions: how scoring works, how to build a 3v3 deck, what to buy first, and how to practice.",
+    "zh": "從 AI Sister 上四篇 Beyblade X（戰鬥陀螺）討論整理而成的中文筆記：怎麼計分、怎麼組 3v3 牌組、先買什麼、怎麼練。"
+  },
+  "hero": {
+    "eyebrow": {
+      "en": "Beyblade X · Notes in Traditional Chinese",
+      "zh": "Beyblade X · 中文戰術筆記"
+    },
+    "headline": {
+      "en": "Count the points, <em>then</em> buy parts.",
+      "zh": "先算分，<em>再買</em>零件。"
+    },
+    "lede": {
+      "en": "Beyblade X is not just about spinning the longest. These notes turn four AI Sister discussions into a framework: learn what each finish scores, then build three tops that split the work of scoring, holding, and countering.",
+      "zh": "Beyblade X 不是單純比誰轉最久。這份筆記把 AI Sister 上四篇討論整理成一套框架：先搞懂每種勝利拿幾分，再讓三顆陀螺分工搶分、穩守和反制。"
+    },
+    "primary": {
+      "href": "#start",
+      "label": {
+        "en": "Reading order",
+        "zh": "閱讀順序"
+      }
+    },
+    "secondary": {
+      "href": "https://github.com/teddashh/zhan-dou-tuo-luo/tree/main/docs",
+      "label": {
+        "en": "Read the notes on GitHub",
+        "zh": "在 GitHub 閱讀筆記"
+      }
+    },
+    "notes": [
+      {
+        "en": "6 notes in docs/",
+        "zh": "docs/ 內 6 篇筆記"
+      },
+      {
+        "en": "Written in Traditional Chinese",
+        "zh": "繁體中文"
+      },
+      {
+        "en": "Sources: 4 AI Sister posts",
+        "zh": "來源：4 篇 AI Sister 文章"
+      }
+    ],
+    "visual": {
+      "type": "report",
+      "top": {
+        "en": "Beyblade X scoring",
+        "zh": "Beyblade X 計分"
+      },
+      "badge": {
+        "en": "First to 4",
+        "zh": "先到 4 分"
+      },
+      "title": {
+        "en": "What each finish is worth",
+        "zh": "每種勝利拿幾分"
+      },
+      "meta": {
+        "en": "Usual values in the notes; check your event's rules",
+        "zh": "筆記裡的一般計分，賽前仍要確認賽制"
+      },
+      "rows": [
+        {
+          "title": "Spin Finish",
+          "meta": "自旋勝利",
+          "level": "muted",
+          "label": {
+            "en": "1 point",
+            "zh": "1 分"
+          }
+        },
+        {
+          "title": "Over Finish",
+          "meta": "撞出場",
+          "level": "medium",
+          "label": {
+            "en": "2 points",
+            "zh": "2 分"
+          }
+        },
+        {
+          "title": "Burst Finish",
+          "meta": "爆裂",
+          "level": "medium",
+          "label": {
+            "en": "2 points",
+            "zh": "2 分"
+          }
+        },
+        {
+          "title": "Xtreme Finish",
+          "level": "high",
+          "label": {
+            "en": "3 points",
+            "zh": "3 分"
+          }
+        }
+      ],
+      "footer": {
+        "left": {
+          "en": "A match ends at",
+          "zh": "一場比賽"
+        },
+        "right": {
+          "en": "4 points",
+          "zh": "先到 4 分就結束"
+        }
+      }
+    }
+  },
+  "problem": {
+    "kicker": {
+      "en": "The core idea",
+      "zh": "核心觀念"
+    },
+    "title": {
+      "en": "Spinning longest is not winning.",
+      "zh": "轉最久，不一定最強。"
+    },
+    "body": {
+      "en": "The better question: under the current rules, how do three tops score most efficiently? A stamina top that mostly wins by Spin Finish earns 1 point at a time, so it has to win several times in a row to close a match. An attacker can change the whole match with one big finish, but it is also the most likely to knock itself out.",
+      "zh": "更好的問法是：在現在的規則下，怎麼用三顆陀螺把分數拿得最有效率？持久型主要靠自旋勝利，一次只拿 1 分，要連續成功好幾次才收得掉一場；攻擊型抓到一次大機會就能改變整場，但也最容易自爆。"
+    },
+    "quote": {
+      "en": "Don't ask which top is strongest. Ask what kind of points this top earns in your deck.",
+      "zh": "不要問「哪顆最強」，<br>改問「這顆在我的牌組裡負責賺哪一種分數」。"
+    }
+  },
+  "capabilities": {
+    "kicker": {
+      "en": "The 3v3 deck",
+      "zh": "3v3 牌組思路"
+    },
+    "title": {
+      "en": "Three tops, three jobs.",
+      "zh": "三顆陀螺，三種分工。"
+    },
+    "intro": {
+      "en": "In the formal 3v3 format each player brings three different tops, and parts cannot repeat. So the notes treat a deck as a set of roles, not a ranking.",
+      "zh": "3v3 正式配置要帶三顆不同的陀螺，零件不可重複。所以筆記把牌組看成分工，而不是排行榜。"
+    },
+    "nav": {
+      "en": "3v3 deck",
+      "zh": "3v3 牌組"
+    },
+    "items": [
+      {
+        "title": {
+          "en": "The point-grabber",
+          "zh": "搶分手"
+        },
+        "body": {
+          "en": "Goes for Over, Burst, and Xtreme Finishes to open up the score in one hit. The risk is a self-KO, so do not go all-in when you are already ahead.",
+          "zh": "負責 Over Finish、Burst Finish、Xtreme Finish，一次把分差拉開。風險是自爆，比分領先時不要無腦梭哈。"
+        },
+        "tag": "Phoenix Wing · Dran Buster"
+      },
+      {
+        "title": {
+          "en": "The anchor",
+          "zh": "穩守手"
+        },
+        "body": {
+          "en": "Cuts down self-KOs, holds the center, and makes the opponent's attacks miss. The risk is slow scoring, since a Spin Finish is usually worth only 1 point.",
+          "zh": "負責減少自爆、守中心、逼對手攻擊失誤。風險是拿分慢，因為自旋勝利通常只有 1 分。"
+        },
+        "tag": "Wizard Rod · Silver Wolf"
+      },
+      {
+        "title": {
+          "en": "The closer or counter",
+          "zh": "收尾 / 反制手"
+        },
+        "body": {
+          "en": "Built against what your local scene plays most, such as right-spin stamina, attackers, or Wizard Rod types. It can also take the last point safely.",
+          "zh": "針對當地常見牌組，例如專打右迴持久、抗攻擊，或處理 Wizard Rod 類型；也可以用來穩穩補最後 1 分。"
+        },
+        "tag": "Cobalt Dragoon"
+      }
+    ]
+  },
+  "quickstart": {
+    "kicker": {
+      "en": "Reading order",
+      "zh": "閱讀順序"
+    },
+    "title": {
+      "en": "Six notes, in this order.",
+      "zh": "六篇筆記，這樣讀。"
+    },
+    "intro": {
+      "en": "The notes are written in Traditional Chinese. The first four each summarize one AI Sister post; the last two are practical guides.",
+      "zh": "前四篇各整理一篇 AI Sister 文章，後兩篇是實用指南。"
+    },
+    "nav": {
+      "en": "Reading order",
+      "zh": "閱讀順序"
+    },
+    "primary": {
+      "href": "https://github.com/teddashh/zhan-dou-tuo-luo/tree/main/docs",
+      "label": {
+        "en": "Open docs/",
+        "zh": "打開 docs/"
+      }
+    },
+    "secondary": {
+      "href": "https://github.com/teddashh/zhan-dou-tuo-luo/blob/main/README.en.md",
+      "label": {
+        "en": "English summary",
+        "zh": "英文摘要"
+      }
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "The forum thread: strongest versions and winning tactics",
+          "zh": "論壇原題：戰鬥陀螺最強版本比較與勝率最高戰術分享"
+        },
+        "body": {
+          "en": "Why “strongest” depends on the format, and three questions to ask first. <a href=\"https://github.com/teddashh/zhan-dou-tuo-luo/blob/main/docs/01-forum-248.md\">Note</a> · <a href=\"https://ai-sister.com/en/forum/post/248\">Source</a>",
+          "zh": "為什麼「最強」要放進賽制看，以及問之前先想的三件事。<a href=\"https://github.com/teddashh/zhan-dou-tuo-luo/blob/main/docs/01-forum-248.md\">筆記</a> · <a href=\"https://ai-sister.com/zh-TW/forum/post/248\">原文</a>"
+        }
+      },
+      {
+        "title": {
+          "en": "Spinning longest is not strongest: the score sheet decides",
+          "zh": "轉最久的不一定最強：分數帳才是勝率核心"
+        },
+        "body": {
+          "en": "Point values, why the post picks Wizard Rod 3-60 Ball as the first top to invest in, and the center-control tactic. <a href=\"https://github.com/teddashh/zhan-dou-tuo-luo/blob/main/docs/02-blog-602.md\">Note</a> · <a href=\"https://ai-sister.com/en/blog/602\">Source</a>",
+          "zh": "各種勝利的分數、原文為什麼偏向把 Wizard Rod 3-60 Ball 當第一顆主力，以及中心控盤戰術。<a href=\"https://github.com/teddashh/zhan-dou-tuo-luo/blob/main/docs/02-blog-602.md\">筆記</a> · <a href=\"https://ai-sister.com/zh-TW/blog/602\">原文</a>"
+        }
+      },
+      {
+        "title": {
+          "en": "Hitting hardest is not coolest: budget for a deck",
+          "zh": "撞最兇不一定最帥：零用錢也要算牌組"
+        },
+        "body": {
+          "en": "The same idea for parents and beginners: read the rules first, build a 3v3 that works, then upgrade parts. <a href=\"https://github.com/teddashh/zhan-dou-tuo-luo/blob/main/docs/03-blog-603.md\">Note</a> · <a href=\"https://ai-sister.com/en/blog/603\">Source</a>",
+          "zh": "用家長和新手的角度講同一件事：先讀規則、先組一套能用的 3v3，再慢慢升級零件。<a href=\"https://github.com/teddashh/zhan-dou-tuo-luo/blob/main/docs/03-blog-603.md\">筆記</a> · <a href=\"https://ai-sister.com/zh-TW/blog/603\">原文</a>"
+        }
+      },
+      {
+        "title": {
+          "en": "The exchange rate of winning: tops as resource allocation",
+          "zh": "勝負的匯率：把陀螺當成資源配置"
+        },
+        "body": {
+          "en": "Each kind of finish pays a different rate; attack, defense, and closer cards each earn a different kind of point. <a href=\"https://github.com/teddashh/zhan-dou-tuo-luo/blob/main/docs/04-blog-604.md\">Note</a> · <a href=\"https://ai-sister.com/en/blog/604\">Source</a>",
+          "zh": "不同勝利方式有不同報酬，攻擊牌、防守牌、收尾牌各自負責賺不同的分數。<a href=\"https://github.com/teddashh/zhan-dou-tuo-luo/blob/main/docs/04-blog-604.md\">筆記</a> · <a href=\"https://ai-sister.com/zh-TW/blog/604\">原文</a>"
+        }
+      },
+      {
+        "title": {
+          "en": "Recommended models and 3v3 decks",
+          "zh": "推薦型號與 3v3 牌組配置"
+        },
+        "body": {
+          "en": "Starter picks by role, three sample decks, spring 2026 meta notes, and Japanese versus US versions. <a href=\"https://github.com/teddashh/zhan-dou-tuo-luo/blob/main/docs/recommended-models.md\">Note</a>",
+          "zh": "依角色推薦的新手型號、三套牌組範例、2026 春季 meta 觀察，以及日版與美版的差別。<a href=\"https://github.com/teddashh/zhan-dou-tuo-luo/blob/main/docs/recommended-models.md\">筆記</a>"
+        }
+      },
+      {
+        "title": {
+          "en": "Techniques and practice routine",
+          "zh": "實戰技巧與訓練菜單"
+        },
+        "body": {
+          "en": "Flat, angled, and power-controlled launches, a 20-minute daily routine, a pre-match checklist, and a post-match review template. <a href=\"https://github.com/teddashh/zhan-dou-tuo-luo/blob/main/docs/techniques.md\">Note</a>",
+          "zh": "平射、斜射、弱射控力，20 分鐘日常訓練、賽前檢查表與賽後復盤模板。<a href=\"https://github.com/teddashh/zhan-dou-tuo-luo/blob/main/docs/techniques.md\">筆記</a>"
+        }
+      }
+    ]
+  },
+  "status": {
+    "kicker": {
+      "en": "Honest status",
+      "zh": "誠實的現況"
+    },
+    "title": {
+      "en": "Where it stands.",
+      "zh": "目前的樣子。"
+    },
+    "intro": {
+      "en": "Written in June 2026 in a single commit. The notes are a tactical framework, not a permanent ranking.",
+      "zh": "2026 年 6 月一次寫完。這份筆記適合當作戰術框架，不是永久排行榜。"
+    },
+    "works": [
+      {
+        "en": "Scoring logic and the 3v3 role split, with the reasoning behind them",
+        "zh": "計分邏輯與 3v3 分工，以及背後的理由"
+      },
+      {
+        "en": "A beginner buying order, recommended models by role, and three sample decks",
+        "zh": "新手購買順序、依角色推薦的型號，以及三套牌組範例"
+      },
+      {
+        "en": "Launch drills, a 20-minute routine, a pre-match checklist, and a review template",
+        "zh": "發射練習、20 分鐘訓練菜單、賽前檢查表與復盤模板"
+      },
+      {
+        "en": "Ways an AI agent can help: score models, local meta, deck checks, practice plans, reviews",
+        "zh": "AI Agent 可以幫的忙：分數模型、當地 meta、牌組假設、訓練菜單、賽後復盤"
+      }
+    ],
+    "limits": [
+      {
+        "en": "Point values are the usual ones; confirm your event's format, including whether a match goes to 4 points",
+        "zh": "分數是一般情況，賽前要確認賽制，包括是不是先到 4 分"
+      },
+      {
+        "en": "New parts, ban lists, shop rules, and regional formats all change which top is “strongest”",
+        "zh": "新零件、官方禁用表、店家規則、地區賽制，都會影響「最強」的答案"
+      },
+      {
+        "en": "The spring 2026 meta section reflects player discussion at that time",
+        "zh": "2026 春季 meta 觀察反映的是當時的玩家討論"
+      },
+      {
+        "en": "The notes are in Chinese only; README.en.md is an English summary",
+        "zh": "筆記只有中文版，README.en.md 是英文摘要"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "label": {
+        "en": "Language",
+        "zh": "語言"
+      },
+      "value": {
+        "en": "Traditional Chinese",
+        "zh": "繁體中文"
+      }
+    },
+    {
+      "label": {
+        "en": "Notes",
+        "zh": "筆記"
+      },
+      "value": {
+        "en": "6 files in docs/",
+        "zh": "docs/ 內 6 篇"
+      }
+    },
+    {
+      "label": {
+        "en": "Sources",
+        "zh": "來源"
+      },
+      "value": {
+        "en": "4 AI Sister posts",
+        "zh": "4 篇 AI Sister 文章"
+      }
+    },
+    {
+      "label": {
+        "en": "Topic",
+        "zh": "主題"
+      },
+      "value": "Beyblade X"
+    },
+    {
+      "label": {
+        "en": "License",
+        "zh": "授權"
+      },
+      "value": {
+        "en": "Not specified",
+        "zh": "未指定"
+      }
+    },
+    {
+      "label": {
+        "en": "Verified",
+        "zh": "查核日期"
+      },
+      "value": "2026-09-30"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://github.com/teddashh/zhan-dou-tuo-luo/blob/main/README.en.md",
+      "label": {
+        "en": "English README",
+        "zh": "英文 README"
+      }
+    }
+  ]
+}
