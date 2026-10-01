@@ -53,3 +53,7 @@ Beyblade X 的環境會變。新零件、官方禁用表、店家規則、地區
 - https://ai-sister.com/zh-TW/blog/604
 - https://ai-sister.com/zh-TW/blog/603
 - https://ai-sister.com/zh-TW/blog/602
+
+## 授權
+
+筆記內容以 [CC BY 4.0](LICENSE) 授權：可以轉載、改寫，也可以用在商業用途，只要註明出處。`site/` 底下的專案介紹頁是用 [teddashh.github.io](https://github.com/teddashh/teddashh.github.io) 的頁面套件（MIT）產生的。
