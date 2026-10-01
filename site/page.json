@@ -380,17 +380,14 @@
         "en": "License",
         "zh": "授權"
       },
-      "value": {
-        "en": "Not specified",
-        "zh": "未指定"
-      }
+      "value": "CC BY 4.0"
     },
     {
       "label": {
         "en": "Verified",
         "zh": "查核日期"
       },
-      "value": "2026-09-30"
+      "value": "2026-10-01"
     }
   ],
   "links": [

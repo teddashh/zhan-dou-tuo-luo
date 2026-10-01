@@ -57,3 +57,7 @@ AI Sister posts, each with its original Chinese version and an English version:
 - Blog post 604: https://ai-sister.com/zh-TW/blog/604 (English: https://ai-sister.com/en/blog/604)
 - Blog post 603: https://ai-sister.com/zh-TW/blog/603 (English: https://ai-sister.com/en/blog/603)
 - Blog post 602: https://ai-sister.com/zh-TW/blog/602 (English: https://ai-sister.com/en/blog/602)
+
+## License
+
+The notes are licensed under [CC BY 4.0](LICENSE): you may share and adapt them, including for commercial use, as long as you give credit. The project page under `site/` is generated with the MIT-licensed page kit from [teddashh.github.io](https://github.com/teddashh/teddashh.github.io).
