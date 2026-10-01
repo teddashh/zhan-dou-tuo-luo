@@ -12,7 +12,7 @@
   },
   "description": {
     "en": "Notes in Traditional Chinese on Beyblade X strategy, compiled from four AI Sister discussions: how scoring works, how to build a 3v3 deck, what to buy first, and how to practice.",
-    "zh": "把 AI Sister 上四篇 Beyblade X（戰鬥陀螺）討論整理成的中文筆記：怎麼計分、怎麼組 3v3 牌組、先買什麼、怎麼練。"
+    "zh": "從 AI Sister 上四篇 Beyblade X（戰鬥陀螺）討論整理而成的中文筆記：怎麼計分、怎麼組 3v3 牌組、先買什麼、怎麼練。"
   },
   "hero": {
     "eyebrow": {
@@ -137,7 +137,7 @@
     },
     "quote": {
       "en": "Don't ask which top is strongest. Ask what kind of points this top earns in your deck.",
-      "zh": "不要問「哪顆最強」，改問「這顆在我的牌組裡負責賺哪一種分數」。"
+      "zh": "不要問「哪顆最強」，<br>改問「這顆在我的牌組裡負責賺哪一種分數」。"
     }
   },
   "capabilities": {
