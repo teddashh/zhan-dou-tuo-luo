@@ -6,6 +6,14 @@
   "palette": "blue",
   "default_branch": "main",
   "verified": "2026-09-30",
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "label": {
+      "en": "CC BY 4.0",
+      "zh": "CC BY 4.0 授權"
+    },
+    "href": "LICENSE"
+  },
   "title": {
     "en": "Beyblade X strategy notes from AI Sister discussions",
     "zh": "AI 教你打陀螺：Beyblade X 戰術筆記"
