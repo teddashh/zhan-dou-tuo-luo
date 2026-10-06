@@ -5,7 +5,7 @@
   "mark": "BX",
   "palette": "blue",
   "default_branch": "main",
-  "verified": "2026-09-30",
+  "verified": "2026-10-06",
   "license": {
     "spdx": "CC-BY-4.0",
     "label": {
@@ -395,7 +395,7 @@
         "en": "Verified",
         "zh": "查核日期"
       },
-      "value": "2026-10-01"
+      "value": "2026-10-06"
     }
   ],
   "links": [
@@ -404,6 +404,306 @@
       "label": {
         "en": "English README",
         "zh": "英文 README"
+      }
+    }
+  ],
+  "flows": [
+    {
+      "id": "score-rates",
+      "heading": {
+        "en": "What a finish pays",
+        "zh": "每種勝利值幾分"
+      },
+      "intro": {
+        "en": "The notes use the usual Beyblade X rates. A match on those rates ends at 4 points, and the event can use different ones.",
+        "zh": "筆記用的是 Beyblade X 常見的計分。以這個算法先到 4 分就結束，賽制本身仍可能不同。"
+      },
+      "spec": {
+        "columns": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "core": 4
+      },
+      "steps": [
+        {
+          "title": {
+            "en": "Spin finish",
+            "zh": "自旋勝利"
+          },
+          "note": {
+            "en": "A Spin Finish, the top that spins longer, usually scores 1 point.",
+            "zh": "自旋勝利是轉得比較久，通常只有 1 分。"
+          },
+          "tone": "neutral",
+          "icon": "clock"
+        },
+        {
+          "title": {
+            "en": "Over finish",
+            "zh": "撞出場"
+          },
+          "note": {
+            "en": "An Over Finish, knocking the other top out, is usually 2 points.",
+            "zh": "Over Finish 是把對手撞出場，通常是 2 分。"
+          },
+          "tone": "info",
+          "icon": "forward"
+        },
+        {
+          "title": {
+            "en": "Burst finish",
+            "zh": "爆裂"
+          },
+          "note": {
+            "en": "A Burst Finish, where the other top comes apart, is usually 2 points.",
+            "zh": "Burst Finish 是把對手打到爆裂，通常是 2 分。"
+          },
+          "tone": "warn",
+          "icon": "bolt"
+        },
+        {
+          "title": {
+            "en": "Xtreme finish",
+            "zh": "Xtreme"
+          },
+          "note": {
+            "en": "An Xtreme Finish is usually worth 3 points, the highest rate in these notes.",
+            "zh": "Xtreme Finish 通常值 3 分，是這份筆記裡最高的分數。"
+          },
+          "tone": "accent",
+          "icon": "spark"
+        },
+        {
+          "title": {
+            "en": "First to 4",
+            "zh": "先到 4 分"
+          },
+          "note": {
+            "en": "Under the rates in these notes, the match ends when one side reaches 4.",
+            "zh": "依照筆記裡的算法，一方先到 4 分，這場就結束。"
+          },
+          "tone": "accent",
+          "icon": "check"
+        }
+      ],
+      "ticks": [
+        {
+          "en": "spin finish is usually 1",
+          "zh": "自旋通常 1 分"
+        },
+        {
+          "en": "over and burst are usually 2",
+          "zh": "撞出和爆裂通常 2 分"
+        },
+        {
+          "en": "xtreme is usually 3, then 4 ends it",
+          "zh": "極限通常 3 分，先到 4"
+        }
+      ],
+      "caption": {
+        "en": "The notes treat a Beyblade X match as a score sheet, not a spin-time contest. A Spin Finish is usually 1 point, an Over Finish or a Burst Finish is usually 2, and an Xtreme Finish is usually 3. On those rates the match ends when one side reaches 4, so a stamina top that only takes spin finishes has to win several times, while one big finish can change the match. The notes say to confirm the event, including whether it really goes to 4.",
+        "zh": "筆記把 Beyblade X 看成分數帳，而不是比誰轉最久。自旋勝利通常 1 分，Over Finish 或 Burst Finish 通常 2 分，Xtreme Finish 通常 3 分。以這個算法，一方先到 4 分就結束，所以只靠自旋的持久型要連贏好幾次，一次大分就能改變整場。筆記也寫明賽前要確認賽制，包括是不是真的先到 4 分。"
+      }
+    },
+    {
+      "id": "buy-layers",
+      "after": "features",
+      "heading": {
+        "en": "Buy in two layers",
+        "zh": "分兩層買"
+      },
+      "intro": {
+        "en": "The buying note is two layers. Check the event, build a stable first deck, and leave the season's meta until you want to compete.",
+        "zh": "購買筆記分成兩層。先查賽制並組一套穩定的第一套，想打比賽再追當季。"
+      },
+      "spec": {
+        "columns": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "core": 1,
+        "boundaryAfter": 2
+      },
+      "zones": {
+        "en": [
+          "First deck",
+          "Two layers",
+          "Competing"
+        ],
+        "zh": [
+          "新手第一套",
+          "分兩層",
+          "想打比賽"
+        ]
+      },
+      "steps": [
+        {
+          "title": {
+            "en": "Check the rules",
+            "zh": "先查規則"
+          },
+          "note": {
+            "en": "Confirm the format, the ban list, part legality, and Japanese or US version before you buy.",
+            "zh": "買之前先確認賽制、禁用表、零件合法性，以及日版或美版。"
+          },
+          "tone": "info",
+          "icon": "search"
+        },
+        {
+          "title": {
+            "en": "Stable core",
+            "zh": "穩定核心"
+          },
+          "note": {
+            "en": "The notes start the first deck with the Wizard Rod series.",
+            "zh": "筆記的第一套從 Wizard Rod 系列當穩定核心。"
+          },
+          "tone": "accent",
+          "icon": "shield"
+        },
+        {
+          "title": {
+            "en": "Point grabber",
+            "zh": "加上搶分"
+          },
+          "note": {
+            "en": "Then add Phoenix Wing or Dran Buster to hunt the high scores.",
+            "zh": "再加 Phoenix Wing 或 Dran Buster 來搶大分。"
+          },
+          "tone": "warn",
+          "icon": "bolt"
+        },
+        {
+          "title": {
+            "en": "Season meta",
+            "zh": "再追當季"
+          },
+          "note": {
+            "en": "Buy a stable deck you can practice first, and chase that season's meta only if you want to compete.",
+            "zh": "新手先買穩定、好練、好理解的牌組，想打比賽再追當季 meta。"
+          },
+          "tone": "neutral",
+          "icon": "spark"
+        }
+      ],
+      "ticks": [
+        {
+          "en": "check the event rules before you buy",
+          "zh": "買之前先查賽制"
+        },
+        {
+          "en": "first deck is Wizard Rod plus a grabber",
+          "zh": "第一套是核心加搶分"
+        },
+        {
+          "en": "meta is only for competing",
+          "zh": "想比賽再追當季"
+        }
+      ],
+      "caption": {
+        "en": "docs/recommended-models.md says to confirm the event before buying: the format, the ban list, which parts are legal, and whether it is the Japanese or US version. The first deck starts with the Wizard Rod series as the stable core, then adds Phoenix Wing or Dran Buster as the point grabber. The same note splits buying into two layers: a beginner buys a stable deck that is easy to practice and easy to understand, and chases that season's meta only when they want to compete.",
+        "zh": "docs/recommended-models.md 寫明購買前要確認賽制、禁用表、零件合法性，以及日版或美版。第一套從 Wizard Rod 系列當穩定核心，再加 Phoenix Wing 或 Dran Buster 當搶分手。同一篇筆記把購買分成兩層：新手先買穩定、好練、好理解的牌組，想打比賽再追當季 meta。"
+      }
+    },
+    {
+      "id": "practice-loop",
+      "after": "start",
+      "heading": {
+        "en": "Drill, record, review",
+        "zh": "練、記、再復盤"
+      },
+      "intro": {
+        "en": "The technique note is a loop. You drill a launch, write down what the top did, then review the match before the next session.",
+        "zh": "技巧筆記是一個循環。先練一種發射，記下陀螺的結果，賽後再復盤，下一回接著練。"
+      },
+      "spec": {
+        "columns": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        "core": 1,
+        "loop": true
+      },
+      "steps": [
+        {
+          "title": {
+            "en": "Launch drill",
+            "zh": "練習發射"
+          },
+          "note": {
+            "en": "Practice the flat launch, the angled launch, and controlled power.",
+            "zh": "練平射、斜射，以及控制力道。"
+          },
+          "tone": "neutral",
+          "icon": "forward"
+        },
+        {
+          "title": {
+            "en": "Write it down",
+            "zh": "記下結果"
+          },
+          "note": {
+            "en": "Record whether it stayed in the center, took the outer line, hit the wall, or burst.",
+            "zh": "記下它留在中心、走到外圈、撞牆，還是爆掉。"
+          },
+          "tone": "accent",
+          "icon": "ledger"
+        },
+        {
+          "title": {
+            "en": "Review the match",
+            "zh": "賽後復盤"
+          },
+          "note": {
+            "en": "Ask whether a loss came from the launch angle, the stadium, the matchup, or the deck.",
+            "zh": "問這場輸在發射角度、場地、對位，還是牌組本身。"
+          },
+          "tone": "info",
+          "icon": "search"
+        }
+      ],
+      "ticks": [
+        {
+          "en": "flat, angled, and power drills",
+          "zh": "平射、斜射、控力"
+        },
+        {
+          "en": "write down the top's path",
+          "zh": "記下陀螺的路線"
+        },
+        {
+          "en": "review before the next session",
+          "zh": "下一回之前先復盤"
+        }
+      ],
+      "caption": {
+        "en": "docs/techniques.md splits practice into a flat launch for the center, an angled launch for the outer line, and power control for tops that burst easily. For the angled drill it says to record whether the top entered the X line, hit the wall, or burst. The same note's review, also in the README, asks whether a loss came from the launch angle, the stadium, the matchup, or the deck itself. The next session starts from that note.",
+        "zh": "docs/techniques.md 把練習分成守中心的平射、走外圈的斜射，以及給容易自爆的陀螺用的控力。斜射那段要記下它是進 X 線、撞牆，還是爆掉。同一篇的復盤，README 也寫了：輸是因為發射角度、場地、對位，還是牌組本身。下一回練習從這份紀錄接著做。"
       }
     }
   ]
