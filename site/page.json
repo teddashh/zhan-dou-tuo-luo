@@ -514,15 +514,15 @@
       }
     },
     {
-      "id": "deck-roles",
+      "id": "buy-layers",
       "after": "features",
       "heading": {
-        "en": "Three tops, three jobs",
-        "zh": "三顆陀螺三種工作"
+        "en": "Buy in two layers",
+        "zh": "分兩層買"
       },
       "intro": {
-        "en": "A formal 3v3 deck is three different tops, and parts cannot repeat. The notes split that deck into jobs instead of ranking a single top.",
-        "zh": "正式 3v3 要帶三顆不同的陀螺，零件不能重複。筆記把牌組拆成三種工作，而不是替單顆排名。"
+        "en": "The buying note is two layers. Check the event, build a stable first deck, and leave the season's meta until you want to compete.",
+        "zh": "購買筆記分成兩層。先查賽制並組一套穩定的第一套，想打比賽再追當季。"
       },
       "spec": {
         "columns": [
@@ -530,80 +530,97 @@
             0
           ],
           [
-            1,
-            2,
+            1
+          ],
+          [
+            2
+          ],
+          [
             3
           ]
         ],
-        "core": 0
+        "core": 1,
+        "boundaryAfter": 2
+      },
+      "zones": {
+        "en": [
+          "First deck",
+          "Two layers",
+          "Competing"
+        ],
+        "zh": [
+          "新手第一套",
+          "分兩層",
+          "想打比賽"
+        ]
       },
       "steps": [
         {
           "title": {
-            "en": "Three tops",
-            "zh": "三顆分工"
+            "en": "Check the rules",
+            "zh": "先查規則"
           },
           "note": {
-            "en": "You bring three different tops. Parts cannot be repeated across them.",
-            "zh": "上場帶三顆不同的陀螺，零件不能在三顆之間重複。"
+            "en": "Confirm the format, the ban list, part legality, and Japanese or US version before you buy.",
+            "zh": "買之前先確認賽制、禁用表、零件合法性，以及日版或美版。"
+          },
+          "tone": "info",
+          "icon": "search"
+        },
+        {
+          "title": {
+            "en": "Stable core",
+            "zh": "穩定核心"
+          },
+          "note": {
+            "en": "The notes start the first deck with the Wizard Rod series.",
+            "zh": "筆記的第一套從 Wizard Rod 系列當穩定核心。"
           },
           "tone": "accent",
-          "icon": "hub"
+          "icon": "shield"
         },
         {
           "title": {
             "en": "Point grabber",
-            "zh": "搶分手"
+            "zh": "加上搶分"
           },
           "note": {
-            "en": "It hunts Over, Burst, and Xtreme finishes, and it is the one most likely to knock itself out.",
-            "zh": "它追 Over、Burst、Xtreme，也是最容易自己爆掉的一顆。"
+            "en": "Then add Phoenix Wing or Dran Buster to hunt the high scores.",
+            "zh": "再加 Phoenix Wing 或 Dran Buster 來搶大分。"
           },
           "tone": "warn",
           "icon": "bolt"
         },
         {
           "title": {
-            "en": "The anchor",
-            "zh": "穩守手"
+            "en": "Season meta",
+            "zh": "再追當季"
           },
           "note": {
-            "en": "It holds the center and mostly scores by the 1-point spin finish.",
-            "zh": "它守住中心，拿分多半靠 1 分的自旋勝利。"
+            "en": "Buy a stable deck you can practice first, and chase that season's meta only if you want to compete.",
+            "zh": "新手先買穩定、好練、好理解的牌組，想打比賽再追當季 meta。"
           },
           "tone": "neutral",
-          "icon": "shield"
-        },
-        {
-          "title": {
-            "en": "The counter",
-            "zh": "反制手"
-          },
-          "note": {
-            "en": "It is built against the local scene, and it can also take the last point safely.",
-            "zh": "它針對當地常見牌組，也可以用來穩穩補最後 1 分。"
-          },
-          "tone": "info",
-          "icon": "route"
+          "icon": "spark"
         }
       ],
       "ticks": [
         {
-          "en": "three tops, parts cannot repeat",
-          "zh": "三顆不同，零件不重複"
+          "en": "check the event rules before you buy",
+          "zh": "買之前先查賽制"
         },
         {
-          "en": "grabber, anchor, and counter",
-          "zh": "搶分、穩守、反制"
+          "en": "first deck is Wizard Rod plus a grabber",
+          "zh": "第一套是核心加搶分"
         },
         {
-          "en": "jobs, not a single ranking",
-          "zh": "看分工，不排單顆"
+          "en": "meta is only for competing",
+          "zh": "想比賽再追當季"
         }
       ],
       "caption": {
-        "en": "In the formal 3v3 format the notes describe, each player brings three different tops and parts cannot repeat. The point grabber goes for Over, Burst, and Xtreme finishes and can knock itself out. The anchor holds the center and mostly earns the 1-point spin finish. The counter is chosen for the local scene, such as right-spin stamina or Wizard Rod types, and it can also take the last point. The notes treat that as a split of jobs, not a ranking of one strongest top.",
-        "zh": "筆記講的正式 3v3，每人帶三顆不同的陀螺，零件不能重複。搶分手追 Over、Burst、Xtreme，也可能自爆。穩守手守中心，拿分多半是 1 分的自旋勝利。反制手針對當地常見牌組，例如右迴持久或 Wizard Rod 類型，也可以穩穩補最後 1 分。筆記把這看成分工，不是替單顆排最強。"
+        "en": "docs/recommended-models.md says to confirm the event before buying: the format, the ban list, which parts are legal, and whether it is the Japanese or US version. The first deck starts with the Wizard Rod series as the stable core, then adds Phoenix Wing or Dran Buster as the point grabber. The same note splits buying into two layers: a beginner buys a stable deck that is easy to practice and easy to understand, and chases that season's meta only when they want to compete.",
+        "zh": "docs/recommended-models.md 寫明購買前要確認賽制、禁用表、零件合法性，以及日版或美版。第一套從 Wizard Rod 系列當穩定核心，再加 Phoenix Wing 或 Dran Buster 當搶分手。同一篇筆記把購買分成兩層：新手先買穩定、好練、好理解的牌組，想打比賽再追當季 meta。"
       }
     },
     {
